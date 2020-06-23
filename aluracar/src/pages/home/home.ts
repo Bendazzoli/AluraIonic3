@@ -1,13 +1,15 @@
 import { Component } from '@angular/core';
 import { NavController } from 'ionic-angular';
 
+import { Carro } from '../../modelos/carro';
+
 @Component({
   selector: 'page-home',
   templateUrl: 'home.html'
 })
 export class HomePage {
 
-  public carros;
+  public carros: Carro[];
 
   constructor(public navCtrl: NavController) {
     this.carros = [
@@ -23,7 +25,7 @@ export class HomePage {
       {nome: 'Montana Cabine Dupla', preco:57000},
       {nome: 'Outlander 2.4', preco:99000},
       {nome: 'Brasília Amarela', preco:9500},
-      {nome: 'Omega Hatch', preco:8000},
+      {nome: 'Omega Hatch', preco:8000}
     ];
   }
 
