@@ -24,3 +24,6 @@ $ ionic cordova run ios
 
 Substitute ios for android if not on a Mac.
 
+
+### Servidor WEB - AluraCar Webservice
+In path `aluracar\aluracar-webservice`, to start the server, run `npm start`. 
