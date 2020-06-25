@@ -1,3 +1,3 @@
-export interface NavLifeCycles{
+export interface NavLifecycles {
     ionViewDidLoad?(): void;
 }

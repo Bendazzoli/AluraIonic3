@@ -6,10 +6,10 @@ import { Carro } from '../../modelos/carro';
 export class CarrosServiceProvider {
 
   constructor(private _http: HttpClient) {
-
   }
 
-  lista(){
+  lista() {
     return this._http.get<Carro[]>('http://localhost:8080/api/carro/listaTodos');
   }
+
 }
